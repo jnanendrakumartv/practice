@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Select all and Unselect All</title>
+	<link rel="stylesheet" type="text/css" href="./css/selectall.css">
+</head>
+<body>
+
+
+
+	<h2>Get The Total</h2><br>
+	
+	<span><input type="checkbox" name="sel" value="5">5$</span>
+	<span><input type="checkbox" name="sel" value="10">10$</span>
+	<span><input type="checkbox" name="sel" value="15">15$</span><br>
+	<span><input type="checkbox" name="sel" value="20">20$</span>
+	<span><input type="checkbox" name="sel" value="25">25$</span>
+	<span><input type="checkbox" name="sel" value="30">30$</span>
+	
+		<center>
+		<input class="btn1" type="button" value="UnselectAll" class="btn" onclick="UnSelectAll()">
+		<input class="btn2" type="button" value="SelectAll" class="btn" onclick="SelecteAll()"><br><br>
+		
+		<input class="btn3" type="button" value="Submit" onclick="calculate()">
+   </center>
+   <div><p id="output"></p></div>
+<script src="./javascript/selectall.js"></script>
+
+</body>
+</html>
